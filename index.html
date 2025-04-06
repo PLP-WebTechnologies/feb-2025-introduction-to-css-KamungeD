@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PLP Week 3 Assignment</title>
+        <link rel="stylesheet" href="style.css">
+        <h1>PLP Week 3 Assignment</h1>
+    </head>
+    <body>
+        <h2>Top 5 Foods</h2>
+        <ol type="i">
+            <li>pizza</li>
+            <li>pie</li>
+            <li>brocolli</li>
+            <li>pasta</li>
+            <li>salad</li>
+        </ol>
+
+        <br><br>
+        <h2>Randomness</h2>
+        <img src="https://images.pexels.com/photos/5699519/pexels-photo-5699519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="pills?" width="600" height="400">
+        
+        <br><br>
+        <h2>Contacts Table</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Nairobi</td>
+                    <td>+254111111111</td>
+                    <td>johndoe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>Eldoret</td>
+                    <td>+254222222222</td>
+                    <td>janesmith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Brown</td>
+                    <td>Nakuru</td>
+                    <td>+254333333333</td>
+                    <td>michaelbrown@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>Mombasa</td>
+                    <td>+254444444444</td>
+                    <td>emilydavis@example.com</td>
+                </tr>
+                <tr>
+                    <td>Chris Wilson</td>
+                    <td>Thika</td>
+                    <td>+254555555555</td>
+                    <td>chriswilson@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+
+        <h2>Registration Form</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+
+            <label for="country">Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="burundi">Burundi</option>
+                <option value="south_sudan">South Sudan</option>
+                <option value="ethiopia">Ethiopia</option>
+            </select><br><br>
+
+            <label for="food">Favorite Food:</label><br>
+            <input type="checkbox" id="pizza" name="food" value="pizza">
+            <label for="pizza">Pizza</label><br>
+            <input type="checkbox" id="pie" name="food" value="pie">
+            <label for="pie">Pie</label><br>
+            <input type="checkbox" id="brocolli" name="food" value="brocolli">
+            <label for="brocolli">Brocolli</label><br>
+            <input type="checkbox" id="pasta" name="food" value="pasta">
+            <label for="pasta">Pasta</label><br>
+            <input type="checkbox" id="chicken" name="food" value="chicken">
+            <label for="chicken">Chicken</label><br><br>
+
+            <button type="submit">Submit Form</button>
+        </form>
+    </body>
+</html>
